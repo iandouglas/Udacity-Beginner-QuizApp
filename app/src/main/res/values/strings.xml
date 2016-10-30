@@ -3,7 +3,7 @@
     <string name="welcome_msg">Welcome to Ian\'s quiz!</string>
     <string name="text_ScoreButton">Find Your Score</string>
     <string name="score_end">/4 answers correct</string>
-    <string name="need_all_answers">You need to answer all questions first!</string>
+    <string name="perfect_score">You got a perfect score!</string>
 
     <!-- q1 -->
     <string name="text_Question1">What is the name of the programming language designed by Guido Van Rossum?</string>
@@ -12,10 +12,12 @@
     <string name="text_Q1Answer3">Fortran</string>
     <string name="text_Q1Answer4">Go</string>
     <string name="text_Q1Answer5">Ruby</string>
+    <string name="q1_noanswer">You didn\'t answer question 1!</string>
 
     <!-- q2 -->
     <string name="text_Question2">What is the latest major version of that language in use in late 2016?</string>
     <string-array name="q2_answers">
+        <item>Please choose a version</item>
         <item>v1.x.x</item>
         <item>v2.x.x</item>
         <item>v3.x.x</item>
@@ -23,6 +25,7 @@
         <item>v5.x.x</item>
         <item>v6.x.x</item>
     </string-array>
+    <string name="q2_noanswer">You didn\'t answer question 2!</string>
 
     <!-- q3 -->
     <string name="text_Question3">Which of the following ways are valid instructions to include other code (in this case, called &quot;module&quot;) in this language?</string>
@@ -30,9 +33,12 @@
     <string name="text_q3answer2">require(&quot;module&quot;)</string>
     <string name="text_q3answer3">__import__(&quot;module&quot;)</string>
     <string name="text_q3answer4">#include &lt;module.h&gt;</string>
+    <string name="q3_noanswer">You didn\'t answer question 3!</string>
 
     <!-- q4 -->
     <string name="text_Question4">How would you assign the integer value of &quot;5&quot; to a variable named &quot;value&quot; in this language?</string>
     <string name="type_your_answer_here">type your answer here</string>
+    <string name="q4_rightanswer">a=5</string>
+    <string name="q4_noanswer">You didn\'t answer question 4!</string>
 
 </resources>
