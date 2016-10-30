@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="QuizApp">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="horizontal_bar">
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="LargeText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AnswerRadioGrp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+    </style>
+
+    <style name="AnswerRadio">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="QuizApp" parent="Theme.AppCompat.Light.NoActionBar" />
+
+</resources>
